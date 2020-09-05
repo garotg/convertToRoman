@@ -17,4 +17,6 @@ var convertToRoman = function (num) {
     return num;
 };
 
-convertToRoman(36);
+    for (i = 0; i <= 1000; i++) {
+          console.log(convertToRoman(i));
+    }
